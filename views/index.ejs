@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="nav mb-10">
+        <a href="/read">back to read</a>
+    </div>
+    <div class="bg-zinc-700 w-full h-full text-white ">
+        <form class="flex flex-col justify-evenly items-center" action="/create" method="post">
+            <input class="border-1 w-80 rounded my-9 py-9 py-5 bg-transparent shadow-lg shadow-cyan-500/50" type="text" name="name" id="" placeholder="name">
+            <input class="border-1 w-80 rounded my-9 pt-9 py-5 bg-transparent shadow-lg shadow-cyan-500/50" type="text" name="email" id="" placeholder="email">
+            <input class="border-1  w-80 rounded my-9 pt-9 py-5 bg-transparent shadow-lg shadow-cyan-500/50" type="text" name="image" id="" placeholder="image url">
+            <input class="rounded text-l my-9 py-5 shadow-lg shadow-cyan-500/50" type="submit" value="Create User">
+        </form>
+    </div>
+</body>
+</html>
